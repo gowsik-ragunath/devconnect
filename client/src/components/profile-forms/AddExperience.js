@@ -57,7 +57,7 @@ const AddExperience = ({ addExperience, history }) => {
 					value={current} 
 					onChange={ e => {
 						setFormData({ ...formData, current: !current });
-						toggleDisable(!toggleDisable);
+						toggleDisable(!toDateDisable);
 					}} 
 					/>{' '}Current Job
 				</p>
