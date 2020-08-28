@@ -220,7 +220,7 @@ export const deleteExperience = id => async dispatch => {
 export const deleteAccount = id => async dispatch => {
 	if(window.confirm("This action will delete the account permentaly, deleted account can't be undone!")) {
 		try {
-			const res = await axios.delete(`/api/profile`)
+			await axios.delete(`/api/profile`)
 
 			dispatch({type: CLEAR_PROFILE});
 			dispatch({type: ACCOUNT_DELETED});

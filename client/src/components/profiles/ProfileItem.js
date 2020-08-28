@@ -34,7 +34,7 @@ const ProfileItem = ({ profile: {
 }
 
 ProfileItem.propTypes = {
-
+    profile: PropTypes.object.isRequired
 }
 
 export default ProfileItem
