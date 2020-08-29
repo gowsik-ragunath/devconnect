@@ -49,8 +49,7 @@ export default function(state = initialState, action) {
         case GET_REPOS:
             return {
                 ...state,
-                profile: null,
-                repos: [],
+                repos: payload,
                 loading: false
             }
         default:
