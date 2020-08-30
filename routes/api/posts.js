@@ -159,7 +159,7 @@ router.put("/unlike/:id", auth, async (req,res) => {
 // @route   Put api/posts/comment/:id
 // @desc    Comment on a post by id
 // @access  Private
-router.put("/comment/:id", auth, async (req,res) => { 
+router.post("/comment/:id", auth, async (req,res) => { 
     try {
         const user = await User.findById(req.user.id).select("-password");
         const post = await Post.findById(req.params.id);
