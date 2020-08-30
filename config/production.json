@@ -1,6 +1,0 @@
-{
-    "mongoURI": "mongodb+srv://gowsik_ragunath:o4z5GP8WIW4E2fLJ@cluster0-f7akw.mongodb.net/test?retryWrites=true&w=majority",
-    "jwtSecret": "mysecrettoken",
-    "githubClientId": "8f136b069c49e378587a",
-    "githubClientSecret": "351e3ec5627d209c16c12dd0b657bf4536f2fb92"
-}
